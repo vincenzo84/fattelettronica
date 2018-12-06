@@ -7,13 +7,6 @@
             "email": "v.flauto@syriaweb.it"
         }
     ],
-    "extra": {
-        "laravel": {
-            "providers": [
-                "Syriaweb\\Fattelettronica\\FattelettronicaServiceProvider1"
-            ]
-        }
-    },
     "minimum-stability": "dev",
     "require": {}
 }
