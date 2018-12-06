@@ -7,6 +7,17 @@
             "email": "v.flauto@syriaweb.it"
         }
     ],
-    "minimum-stability": "dev",
-    "require": {}
+    "keywords": [
+        "fatturazione elettronica",
+        "fatturazione aruba"
+    ],
+    "autoload": {
+        "psr-4": {
+            "Syriaweb\\Fattelettronica\\": "src"
+        }
+    },
+    "require": {
+        "php": ">=5.6.0"
+    },
+    "minimum-stability": "dev"
 }
