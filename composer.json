@@ -10,7 +10,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Syriaweb\\Fattelettronica\\FattelettronicaServiceProvider"
+                "Syriaweb\\Fattelettronica\\FattelettronicaServiceProvider1"
             ]
         }
     },

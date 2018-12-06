@@ -29,7 +29,7 @@ class FattelettronicaServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        include __DIR__.'/routes/web.php';
+        include __DIR__ . '/routes/web.php';
         $this->app->make('Syriaweb\Fattelettronica\FattelettronicaController');
     }
 
