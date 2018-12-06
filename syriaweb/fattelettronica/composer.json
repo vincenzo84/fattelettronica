@@ -1,0 +1,19 @@
+{
+    "name": "syriaweb/fattelettronica",
+    "description": "Integrazione API Aruba per fatturazione elettronica",
+    "authors": [
+        {
+            "name": "Vincenzo Flauto",
+            "email": "v.flauto@syriaweb.it"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Syriaweb\\Fattelettronica\\FattelettronicaServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {}
+}
