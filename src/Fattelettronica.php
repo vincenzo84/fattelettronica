@@ -77,7 +77,7 @@ class Fattelettronica
         ];
 
         $final_request = array(
-            'debug' =>  false,
+            'debug' =>  Config::get('fattelettronica.options.DEMO'),
             'headers' => $headers,
             'json' => $data
         );
